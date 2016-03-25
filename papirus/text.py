@@ -34,7 +34,7 @@ class PapirusText():
                 text_lines[current_line] += " " + word
             else:
                 # No space left on line so move to next one
-    	    text_lines.append("")
+    	        text_lines.append("")
                 current_line += 1
     	    text_lines[current_line] += " " + word
 
